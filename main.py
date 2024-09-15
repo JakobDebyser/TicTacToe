@@ -37,7 +37,7 @@ def check_draw(player_pos):
     return len(player_pos['X']) + len(player_pos['O']) ==9
 
 def single_game(cur_player):
-    values = [' ' for x in range(9)]
+    values = [' ' for _ in range(9)]
     player_pos = {'X': [], 'O': []}
 
     while True:
